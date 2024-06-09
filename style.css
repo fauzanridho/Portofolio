@@ -1,0 +1,226 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  position: absolute;
+  background-color: #101010;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 2px;
+  z-index: 999;
+}
+.nama {
+  font-weight: 700;
+}
+.navigation > div > p {
+  width: 150px;
+  color: white;
+}
+.navigation > nav > ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+  color: white;
+}
+.navigation > nav > ul > li {
+  list-style-type: none;
+}
+.navigation > nav > ul > li > a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navigation > nav > ul > li:hover > a {
+  background-color: white;
+  box-shadow: black;
+  color: #101010;
+}
+.jumbotron {
+  display: flex;
+  width: 100%;
+  height: 110vh;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: #09090b;
+  color: white;
+}
+.jumbotron-description {
+  flex: 50%;
+  margin-left: 20px;
+}
+.jumbotron-description > p {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+.jumbotron-image {
+  flex: 50%;
+  display: flex;
+}
+.jumbotron-image img {
+  margin: auto;
+  width: 500px;
+  border-radius: 50%;
+  opacity: 65%;
+}
+.main {
+  display: flex;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.card-biodata {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 90%;
+}
+.card-biodata h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: -2rem;
+  text-shadow: 4px 4px #09090b;
+  color: white;
+}
+.content-project h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: -2rem;
+  text-shadow: 4px 4px #09090b;
+  color: white;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+.content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 10px;
+  text-align: justify;
+  margin: 10px;
+  flex: 1 1;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  height: auto;
+}
+.content-project {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.card-project {
+  display: flex;
+  margin: auto;
+}
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+}
+.project-image {
+  max-width: 350px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+main aside {
+  background-color: #09090b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+.data-diri{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.data-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-image img{
+  border-radius: 100%;
+  width: 50%;
+}
+.data-nama{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: justify;
+}
+
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+
+main aside .social-media ul {
+  padding:  1rem;
+  margin: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social-media li {
+  list-style-type: none;
+}
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+main aside .social-media li a:hover {
+  color: #89b0d9;
+}
+footer {
+  background-color: #101010;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
